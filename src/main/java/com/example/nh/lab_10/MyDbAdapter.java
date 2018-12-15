@@ -1,6 +1,5 @@
 package com.example.nh.lab_10;
 
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -80,7 +79,6 @@ public class MyDbAdapter {
         }
 
         public void onCreate(SQLiteDatabase db) {
-
             try {
                 db.execSQL(CREATE_TABLE);
             } catch (Exception e) {
